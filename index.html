@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirti Fitness</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Baloo+Bhai+2:wght@600;800&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+          
+        /* CSS Reset  */
+        body{
+            
+font-family: 'Baloo Bhai 2', cursive;
+
+            margin:0px;
+            padding:0px;
+            background-image:url("https://img.freepik.com/premium-photo/3d-rendering-black-dumbbells-floor-dark-concept-fitness-room-with-training-equipments-back_67155-14961.jpg?w=1380");
+            color:white;
+        }
+        .left{
+            display:inline-block;
+            position:absolute;
+            left:60px;
+            top:20px;
+              /* border:2px solid red;  */
+        }
+        .left img{
+            width:136px;
+        }
+        .left div{
+            line-height:19px;
+            font-size:26px;
+            text-align:center;
+        }
+        .mid{
+            display:block;
+            width:37%;
+            margin:20px auto;
+            /* border:2px solid green;  */
+        }
+        .right{
+            display:inline-block;
+            position:absolute;
+            right:43px;
+            top:33px;
+            /* border:2px solid yellow;  */
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block;
+            font-size:20px;
+            
+        }
+        .navbar li a{
+            color:white;
+            text-decoration:none;
+            padding:10px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+           text-decoration:underline;
+           color:rgb(69, 36, 36);
+        }
+        .bts{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin:0px 9px;
+            color:white;
+            background-color:black;
+            padding:4px 14px;
+            border:2px solid grey;
+            border-radius:10px;
+            font-size:20px;
+            cursor:pointer;
+        }
+        .bts:hover{
+            background-color:rgb(43, 40, 40);
+        }
+        .container{
+            border: 2px solid white;
+    margin: 133px 50px;
+    padding: 59px 78px;
+    width: 50%;
+    border-radius: 32px;
+        }
+        .form-group input{
+            text-align:center;
+            display:block;
+            width:448px;
+            padding:1px;
+            border:2px solid white;
+            margin: 11px auto;
+            font-size:25px;
+            border-radius:8px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .container h1{
+            text-align:center;
+        }
+        .container button{
+        display:block;
+        width:81%;
+        margin: 20px auto;
+        }
+        
+    </style>
+
+
+<body> 
+    <!-- this is not working here we have to add image in body of css  -->
+    <!-- <img src="https://images.unsplash.com/photo-1550345332-09e3ac987658?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="error">  -->
+    <header class="header">
+        <!-- left box for logo  -->
+        <div class="left">
+       <img src="https://cdn.vectorstock.com/i/1000x1000/18/67/barbel-gym-dumbbell-fitness-hand-biceps-logo-vector-21981867.webp" alt="error">
+       <div>Kirti Fitness</div>
+        </div>
+        <!-- mid box for navigation menu  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons  -->
+        <div class="right">
+           <button class="bts">Call Us</button>
+           <button class="bts">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Haryana Now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your email-id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your phone number">
+            </div>
+            <button class="bts">submit</button>
+        </form>
+    </div>
+</body>
+</html>
